@@ -1,0 +1,247 @@
+/* start font-importing */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url("https://use.typekit.net/ymi6osb.css");
+@import url("https://use.typekit.net/ymi6osb.css");
+/* end font-importing */
+
+/* start default heading styles */
+.my-h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18vh;
+    line-height: 21vh;
+    color: #000000;
+}
+
+.my-h2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15vh;
+    line-height: 18vh;
+    color: #000000;
+}
+
+.my-h3 {
+    font-family: courier-prime, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vh;
+    line-height: 6vh;
+    color: #000000;
+}
+
+.my-h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.my-h5 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 43px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.my-h6 {
+    font-family: courier-prime, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.my-body {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.my-p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+/* end default heading styles */
+
+/* start accent text color styling */
+.secondary-neutral-accent {
+    color: #575757;
+}
+
+.invert-accent {
+    color: #FFFFFF;
+}
+
+.tea-green-accent {
+    color: #C5DCA0;
+}
+
+.pale-spring-bud-accent {
+    color: #F5F288;
+}
+
+.wild-blue-yonder-accent {
+    color: #A3A5C3;
+}
+
+.uranian-blue-accent {
+    color: #B4E1FF;
+}
+
+.tuscany-accent {
+    color: #C5979D;
+}
+
+.independence-accent {
+    color: #484D6D;
+}
+
+.field-drab-accent{
+    color: #65532F;
+}
+/* end accent text color styling */
+
+/* start background styling */
+.invert-bg {
+    background-color: #000000;
+}
+.half-invert {
+    background: linear-gradient(90deg, #FFFFFF 50%, #000000 50%);
+}
+
+.secondary-neutral-bg{
+    background-color: #575757;
+}
+
+
+.tea-green-bg {
+    background-color: #C5DCA0;
+}
+
+.pale-spring-bud-bg {
+    background-color: #F5F288;
+}
+
+.wild-blue-yonder-bg {
+    background-color: #A3A5C3;
+}
+
+.uranian-blue-bg {
+    background-color: #B4E1FF;
+}
+
+.tuscany-bg {
+    background-color: #C5979D;
+}
+
+.independence-bg {
+    background-color: #484D6D;
+}
+
+.field-drab-bg {
+    background-color: #65532F;
+}
+/* end accent text color styling */
+/* end background styling */
+
+/* start hyperlink styling */
+a:link {
+    color: #484D6D;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #575757;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B4E1FF;
+    text-decoration: none;
+}
+
+a:active {
+    color: #B4E1FF;
+    text-decoration: none;
+}
+/* end hyperlink styling */
+
+/* start image styling */
+.my-img {
+    max-width: 25vw;
+    height: auto;
+}
+/* end image styling */
+
+/* start header styling */
+.my-logo {
+    max-width: 20vw;
+    height: auto;
+}
+/* end header styling */
+
+
+/* start wack padding styling */
+.my-index-padding-big {
+    padding-top: 10vh;
+}
+
+.my-index-padding-indent {
+    padding-left: 10vw;
+}
+
+.my-index-padding-small {
+    padding-top: 5vh;
+}
+/* end wack padding styling */
+
+/* start arrow adjusting */
+.center-arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+/* end arrow adjusting */
+
+/* start position fixing for background */
+fixed-position {
+    position: fixed
+}
+/* end position fixing for background */
+
+/* start animation section */
+
+/* Animation */
+/* Animation */
+.typing {
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(29,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+  }
+  
